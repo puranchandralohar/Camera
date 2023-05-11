@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.camera{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 450px;
+    width: 300px;
+    border:1px solid silver;
+    border-radius: 1rem;
+    background-color: #cf86ff;
+    box-shadow: 0px 14px 21px -1px rgba(148,143,148,1);
+}
+
+.camera_lens{
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border:1px solid silver;
+    box-shadow: 0px 0px 2px 3px #96969673 inset;
+}
+
+.main{
+    margin: 2px;
+    height: 80%;
+    border:1px solid silver;
+    background-color: #fff;
+}
+
+.button{
+    margin: auto;
+    border: 5px solid gold;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #fff;
+}
