@@ -47,8 +47,24 @@
     width: 100%;
 }
 
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.start_cam{
+    background: yellow;
+    padding: 0.2rem;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color:#1e1e1e;
+    border-radius: 50%;
+}
+
 .button{
-    margin: auto;
     border: 5px solid gold;
     border-radius: 50%;
     width: 50px;
